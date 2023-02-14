@@ -84,7 +84,7 @@
 
 		// Navigate to next page
 		document.querySelector('.right').addEventListener('click', function() {
-			if (currentPage < 15) {
+			if (currentPage < 11) {
 				currentPage++;
 				document.querySelector('#image').src = `page${currentPage}/page${currentPage}.png`;
 				updateAdditionalImages(currentPage);
